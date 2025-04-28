@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Forms</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS file for styling -->
+</head>
+<body>
+
+    <header>
+        <h1>Registration Forms</h1>
+    </header>
+
+    <section>
+        <h2>Ordered List of Steps</h2>
+        <ol type="I"> <!-- adding ordered list with Roman numerals -->
+            <li>Input your fullname, please input your surname first.</li>
+            <li>Input your email address.</li>
+            <li>Input password, please ensure it is secure.</li>
+            <li>Input your date of birth, etc.</li>
+            <li>Ensure your details are accurate.</li>
+        </ol>
+
+        <h2>Image from Pexels</h2>  <!-- adding Image from Pexels -->
+        <img src="https://images.pexels.com/photos/4066005/pexels-photo-4066005.jpeg" alt="Sample Image from Pexels" width="600" /> <!-- External image from Pexels -->
+
+        <h2>Contact Table</h2>
+        <table border="1"> <!-- Table displaying contacts, name, address, mobile number and email -->
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, Springfield</td>
+                    <td>(123) 456-7890</td>
+                    <td>johndoe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St, Metropolis</td>
+                    <td>(234) 567-8901</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Johnson</td>
+                    <td>789 Maple Dr, Gotham</td>
+                    <td>(345) 678-9012</td>
+                    <td>emilyj@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>101 Pine Av, Star City</td>
+                    <td>(456) 789-0123</td>
+                    <td>michaelb@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Davis</td>
+                    <td>202 Oak Ln, Central City</td>
+                    <td>(567) 890-1234</td>
+                    <td>aliced@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Registration Form</h2> <!-- adding Registration Form --> 
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="ng">Nigeria</option>
+                <option value="gh">Ghana</option>
+                <option value="ke">Kenya</option>
+                <option value="sa">South Africa</option>
+                <option value="ci">Ivory Coast</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>Male
+            <input type="radio" id="female" name="gender" value="female" required>Female
+            <input type="radio" id="other" name="gender" value="other" required>Other
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">Sports<br>
+            <input type="checkbox" id="music" name="interests" value="music">Music<br>
+            <input type="checkbox" id="reading" name="interests" value="reading">Reading<br>
+            <br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </form>
+            
+
+
+
+    </section>
+    
+    <footer>
+        <p>© 2025 My Registration Form</p>
+    </footer>
+
+</body>
+</html>
